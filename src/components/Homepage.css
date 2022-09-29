@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "motiva-sans";
+  src: url("../fonts/MotivaSansThin.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  font-family: motiva-sans, sans-serif;
+  color: #e5e5e5;
+}
+body {
+  /* background-image: linear-gradient(180deg, #2a475e 0%, #1b2838 80%); */
+  /* background-image: radial-gradient(farthest-corner at 40px 40px, #3d4450 0%, #23262e 80%); */
+  /* background: radial-gradient(circle at top left, rgba(74, 81, 92, 0.4) 0%, rgba(75, 81, 92, 0) 60%), #25282e; */
+  /* background: linear-gradient(135deg,  #67c1f5 0%,#417a9b 100%); */
+  /* background: linear-gradient(135deg,  #3d6c8d 0%,#2e5470 100%); */
+  /* background: linear-gradient(to bottom,  rgba(227,234,239,1) 0%,rgba(199,213,224,1) 100%); */
+  /* background: linear-gradient( to right, #3b6e8c 5%,#000000 95%); */
+  /* background: linear-gradient( to bottom, rgba(0,0,0,0) 5%, rgba(102,192,244,0.2) 95%); */
+  /* background: linear-gradient( -45deg, rgba(64,121,153,1) 5%,rgba(42,62,89,1) 95%); */
+  /* background: linear-gradient( to right, rgba(56,107,135,1) 5%,rgba(68,130,163,1) 95%); */
+  /* background: linear-gradient( to bottom, rgba(22,33,46,1.0) 5%, rgba(22,33,46,0) 95%); */
+  /* background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%); */
+  /* background: linear-gradient(90deg, rgba(33, 162, 255, 0.25) 0%, rgba(33, 162, 255, 0.15) 50%, rgba(50, 50, 51, 0) 100%); */
+  /* background: linear-gradient(90deg, rgba(33, 162, 255, 0.1) 1.89%, rgba(50, 50, 51, 0) 50%), linear-gradient(180deg, #575860 11.6%, #3A4852 54.73%, #2C2D34 100%); */
+  /* background: linear-gradient( to bottom, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%); */
+  /* background: linear-gradient( to bottom, rgba(106,106,106,1) 5%, rgba(85,85,85,1) 95%); */
+  /* background: linear-gradient(90deg, rgba(62, 103, 150, 0.919) 11.38%, rgba(58, 120, 177, 0.8) 25.23%, rgb(15, 33, 110) 100%); */
+  /* box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4); */
+  background: url("../images/colored_body_top.png") center top no-repeat #1b2838;
+  height: 100vh;
+}

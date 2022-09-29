@@ -12,10 +12,9 @@ const helper = {
     };
     return initializeApp(firebaseConfig);
   },
-  getImageURL: async (location) => {
+  getImageURL: (location) => {
     const storage = getStorage(helper.initialize());
-    const url = await getDownloadURL(ref(storage, `images/${location}`));
-    return url;
+    return getDownloadURL(ref(storage, `images/${location}`))
   }
 }
 

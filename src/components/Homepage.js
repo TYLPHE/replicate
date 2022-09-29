@@ -1,17 +1,11 @@
-import imageURL from '../images/imageURL';
 import Header from './Header';
-function Homepage() {
-  const { 
-    steamLogo,
-    steamCards, 
-  } = imageURL;
+import './Homepage.css';
 
+function Homepage() {
   return (
     <div>
       <Header />
       <div>body</div>
-      {/* <img alt='Steam Logo' src={steamLogo} /> */}
-      {/* <img alt='Gift Cards' src={steamCards} /> */}
     </div>
   )
 }
